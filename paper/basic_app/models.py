@@ -3,7 +3,7 @@ from django.urls import reverse
 from django.utils import timezone
 # Create your models here.
 class Exam(models.Model):
-    BRANCH=[('CS','CS'),('ME','ME'),('PIE','PIE'),('EE','EE'),('CE','CE'),('ECE','ECE')]
+    BRANCH=[('CS','CS'),('ME','ME'),('PIE','PIE'),('EE','EE'),('CE','CE'),('ECE','ECE'),('IT','IT')]
     SEM=[(1,1),(2,2),(3,3),(4,4),(5,5),(6,6),(7,7),(8,8)]
     SESSIONAL=[('MidSem 1','MidSem 1'),('MidSem 2','MidSem 2'),('EndSem','EndSem')]
     YEAR=[('2020','2020'),('2019','2019'),('2018','2018'),('2017','2017'),('2016','2016')]
